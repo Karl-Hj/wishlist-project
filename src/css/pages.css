@@ -1,0 +1,97 @@
+.background-august {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-elin {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-lotten {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background-ewa {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/ewa.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-jesper {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/j.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background-niclas {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/ni.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background-liam {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/lia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background-kalle {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/k.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background-nina {
+  height: 100vh;
+  width: 100%;
+  background: url("../backgrounds/nin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.empty-list {
+  width: 70%;
+  max-width: 777px;
+  padding: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 6, 4, 0.555),
+    rgba(196, 161, 162, 0.5)
+  );
+  font-size: 2em;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.empty-list::first-letter {
+  text-transform: capitalize;
+}

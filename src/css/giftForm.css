@@ -1,0 +1,92 @@
+.gift-form-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 5;
+  bottom: 2%;
+}
+
+.gift-form-middle-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1%;
+  z-index: 5;
+}
+
+.form-container {
+  height: 500px;
+  width: 300px;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 6, 4, 0.555),
+    rgba(196, 161, 162, 0.5)
+  );
+  z-index: 130;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-label {
+  font-size: 1.4em;
+}
+
+label {
+  color: white;
+}
+.gift-input {
+  position: relative;
+  width: 94%;
+}
+
+.gift-button {
+  position: absolute;
+  bottom: 2%;
+  width: 80%;
+  font-size: 1.3em;
+}
+
+.form-close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: 30%;
+  height: 10%;
+  cursor: pointer;
+}
+
+.form-open-button {
+  position: relative;
+  margin-bottom: 2%;
+  cursor: pointer;
+  height: 10%;
+  width: 15%;
+  font-size: 2em;
+  max-width: 285px;
+}
+@media (max-width: 768px) {
+  .form-open-button {
+    height: 10%;
+    width: 80%;
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 1024px) {
+  .form-open-button {
+    height: 10%;
+    width: 80%;
+    font-size: 2em;
+  }
+}
+@media (min-width: 1200px) {
+  .form-open-button {
+    height: 10%;
+    width: 80%;
+    font-size: 2em;
+  }
+}
